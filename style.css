@@ -1,0 +1,61 @@
+.dice {
+  display: grid;
+  grid-template: 100px 100px 100px/100px 100px 100px;
+  width: 300px;
+  background-image: linear-gradient(to right top, #0085d0, #00b0c2, #00d480);
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px;
+}
+.dice > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dice > div div {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  background: #f46b45;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#eea849, #fda828);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eea849, #fda828); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  visibility: hidden;
+}
+
+.dice2 {
+  display: grid;
+  grid-template: 100px 100px 100px/100px 100px 100px;
+  width: 300px;
+  background-image: linear-gradient(to right top, #0085d0, #00b0c2, #00d480);
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px;
+}
+.dice2 > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dice2 > div div {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  background: #f46b45;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d49338, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  visibility: hidden ;
+}
+
+.invis {
+  visibility: visible !important;
+}
+.invisi {
+  visibility: hidden !important;
+}
+
+body {
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5a5cdd, #d768e6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5a8edb, #bf30e2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
